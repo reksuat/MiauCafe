@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: #2A2420;
+    margin-top: 20px;
+}
+nav {
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #FCE4EC; 
+    border-bottom: 3px solid #D2691E; 
+}
+nav a {
+    margin: 0 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2A2420;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 2px solid transparent; 
+    padding: 5px 15px;
+    border-radius: 10px; 
+}
+nav a:hover {
+    color: #D2691E;
+    border-color: #D2691E;
+    letter-spacing: 1px; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF9F4;
+    color: #2A2420;
+}
