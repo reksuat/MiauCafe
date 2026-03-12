@@ -13,7 +13,7 @@ nav {
     margin-top: 10px;
     padding: 15px;
     background-color: #FCE4EC; 
-    border-bottom: 3px solid #D2691E; 
+    border-bottom: 3px solid #3E2723; 
 }
 nav a {
     margin: 0 20px;
@@ -27,13 +27,83 @@ nav a {
     border-radius: 10px; 
 }
 nav a:hover {
-    color: #D2691E;
-    border-color: #D2691E;
+    color: #3E2723;
+    border-color: #3E2723;
     letter-spacing: 1px; 
+}
+
+.menuToggle{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    color: #2A2420; 
+}
+
+#menuOption{
+    display: none;
+}
+
+
+.menuMobile{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #3E2723;
+    padding-top: 80px;
+    transition: 0.3s;
+}
+
+#menuOption:checked ~ .menuMobile {
+    left: 0;
+}
+.menuMobile a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuMobile a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+#menuOption:checked + label + .menuMobile{
+    left: 0;
+}
+.menuMobile a:hover {
+    background-color: rgba(252, 228, 236, 0.2); 
+    border-left: 5px solid #FCE4EC; 
+    color: #FCE4EC; 
+}
+
+@media (max-width: 768px){
+
+    nav{
+        display: none;
+    }
+
+    .menuToggle{
+        display: block;
+    }
+
 }
 
 body {
     font-family: 'Arial', sans-serif;
     background-color: #FFF9F4;
     color: #2A2420;
+}
+
+footer {
+    background-color: #FCE4EC; /* Rosa Bebê */
+    padding: 20px;
+    text-align: center;
+    color: #2A2420;
+    margin-top: 50px;
 }
