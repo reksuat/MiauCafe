@@ -102,12 +102,46 @@ body {
     background-color: #FFF9F4;
     color: #2A2420;
 }
+.apresentacao {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 20px;
+}
+.texto {
+    flex: 1;
+    min-width: 300px;
+    /*
+    background-color: #FCE4EC;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #D4A5A5; */
+}
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+#oliver {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px #D4A5A5;
+}
+
+
+
+
+.nothing {
+    flex: 2;
+}
 
 /* Modo escuro  */
 #themeToggle {
     position: absolute;
     top: 25px;
-    left: 2px;
+    left: 25px;
     width: 30px;
     height: 30px;
     border: none;
@@ -120,19 +154,19 @@ body {
     color: #2A2420; 
 }
 body.dark #themeToggle {
-    background-color: #e26383;
+    background-color: #ca5e5e;
 }
 body.dark {
-    background-color: #2A2420;
+    background-color: #2c1c1a;
     color:#FCE4EC ;
 }
 body.dark nav {
-    background: #e26383;
+    background: #ca5e5e;
     border-bottom: 3px solid #FCE4EC;
 }
 body.dark footer {
-    background-color: #e26383;
-    color: #FCE4EC;
+    background-color: #ca5e5e;
+    
 }
 body.dark .menuMobile {
     background-color: #5c3b36 ;
@@ -140,8 +174,14 @@ body.dark .menuMobile {
 body.dark .menuToggle {
     color: #FCE4EC;
 }
+body.dark .apresentacao{
+    color:#FFF9F4 ;
+}
+body.dark #oliver {
+     box-shadow: 10px 10px 0px #5c3b36; 
+}
 footer {
-    background-color: #FCE4EC; /* Rosa Bebê */
+    background-color: #FCE4EC; 
     padding: 20px;
     text-align: center;
     color: #2A2420;
