@@ -5,7 +5,6 @@
 }
 h1 {
     text-align: center;
-    color: #2A2420;
     margin-top: 20px;
 }
 nav {
@@ -84,6 +83,10 @@ nav a:hover {
 
 @media (max-width: 768px){
 
+     #themeToggle {
+        right: 70px; 
+        top: 25px; 
+    }
     nav{
         display: none;
     }
@@ -100,6 +103,43 @@ body {
     color: #2A2420;
 }
 
+/* Modo escuro  */
+#themeToggle {
+    position: absolute;
+    top: 25px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #FCE4EC;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    color: #2A2420; 
+}
+body.dark #themeToggle {
+    background-color: #e26383;
+}
+body.dark {
+    background-color: #2A2420;
+    color:#FCE4EC ;
+}
+body.dark nav {
+    background: #e26383;
+    border-bottom: 3px solid #FCE4EC;
+}
+body.dark footer {
+    background-color: #e26383;
+    color: #FCE4EC;
+}
+body.dark .menuMobile {
+    background-color: #5c3b36 ;
+}
+body.dark .menuToggle {
+    color: #FCE4EC;
+}
 footer {
     background-color: #FCE4EC; /* Rosa Bebê */
     padding: 20px;
