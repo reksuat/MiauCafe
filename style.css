@@ -104,9 +104,9 @@ body {
 }
 .apresentacao {
     display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: top; 
+    justify-content:space-between;
+    flex-wrap: wrap; /* quebra linha */
     padding: 40px;
     gap: 20px;
 }
@@ -129,10 +129,6 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 0px #D4A5A5;
 }
-
-
-
-
 .nothing {
     flex: 2;
 }
