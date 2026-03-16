@@ -22,7 +22,7 @@ body.dark #themeToggle {
 }
 body.dark {
     background-color: #2c1c1a;
-    color:#FCE4EC ;
+    color:#FFF9F4 ;
 }
 body.dark nav {
     background: #ca5e5e;
@@ -43,4 +43,11 @@ body.dark .apresentacao{
 }
 body.dark #oliver {
      box-shadow: 10px 10px 0px #5c3b36; 
+}
+body.dark .reservas {
+    background-color: #5c3b36 ;
+
+}
+body.dark .saibaMais {
+    background-color: #5c3b36 ;
 }

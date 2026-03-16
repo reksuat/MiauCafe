@@ -173,54 +173,23 @@ th, td {
     border: 1px solid #D4A5A5;
     padding: 10px; 
 } */
+.saibaMais {
+    background-image: url('imagens/form.jpg');
+    display: block;
+    padding: 20px;
+}
+.reservas {
+    background-color:#FFF9F4 ;
+    display: block;
+    max-width: 400px;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    flex-direction: column;
+}
 
-/* Modo escuro  */
-#themeToggle {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    width: 30px;
-    height: 30px;
-    border: none;
-    background-color: #FCE4EC;
-    border-radius: 10px;
-    display: grid;
-    place-items: center;
-    font-size: 24px;
-    cursor: pointer;
-    color: #2A2420; 
-}
-/* body.dark table {
-    background-color: #5c3b36 ; 
-    box-shadow: 10px 10px 0px #ca5e5e; 
-} */
-body.dark #themeToggle {
-    background-color: #ca5e5e;
-}
-body.dark {
-    background-color: #2c1c1a;
-    color:#FCE4EC ;
-}
-body.dark nav {
-    background: #ca5e5e;
-    border-bottom: 3px solid #FCE4EC;
-}
-body.dark footer {
-    background-color: #ca5e5e;
-    
-}
-body.dark .menuMobile {
-    background-color: #5c3b36 ;
-}
-body.dark .menuToggle {
-    color: #FCE4EC;
-}
-body.dark .apresentacao{
-    color:#FFF9F4 ;
-}
-body.dark #oliver {
-     box-shadow: 10px 10px 0px #5c3b36; 
-}
+
 footer {
     background-color: #FCE4EC; 
     padding: 20px;
