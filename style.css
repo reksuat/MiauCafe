@@ -102,6 +102,16 @@ body {
     background-color: #FFF9F4;
     color: #2A2420;
 }
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin-top: 1px;
+}
 .apresentacao {
     display: flex;
     align-items: top; 
@@ -111,12 +121,23 @@ body {
     gap: 20px;
 }
 .texto {
-    flex: 1;
+
+    flex: 1.4;
     min-width: 300px;
-    /*
-    background-color: #FCE4EC;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0px #D4A5A5; */
+    margin-left: 15px;
+    text-align: justify; 
+}
+.texto p {
+    margin-bottom: 15px;
+    line-height: 1.6; 
+    font-size: 1.2rem;
+}
+
+.texto h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #D4A5A5;
+    font-family: 'Dancing Script', cursive; 
 }
 .imagem {
     flex: 1;
@@ -124,14 +145,34 @@ body {
     justify-content: center;
 }
 #oliver {
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 0px #D4A5A5;
 }
-.nothing {
+.horarioFuncionamento {
     flex: 2;
 }
+/* table {
+    width: 400px;
+
+    box-shadow: 10px 10px 0px #D4A5A5;
+    margin: auto;
+    background-color: #FCE4EC;
+    border-radius: 15px;
+    border-collapse: separate;
+    border-spacing: 0;
+    
+    
+}
+table, th, td {
+    border: 2px solid #2A2420;
+    
+}
+th, td {
+    border: 1px solid #D4A5A5;
+    padding: 10px; 
+} */
 
 /* Modo escuro  */
 #themeToggle {
@@ -149,6 +190,10 @@ body {
     cursor: pointer;
     color: #2A2420; 
 }
+/* body.dark table {
+    background-color: #5c3b36 ; 
+    box-shadow: 10px 10px 0px #ca5e5e; 
+} */
 body.dark #themeToggle {
     background-color: #ca5e5e;
 }
