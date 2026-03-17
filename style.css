@@ -82,7 +82,6 @@ nav a:hover {
 }
 
 @media (max-width: 768px){
-
      #themeToggle {
         right: 70px; 
         top: 25px; 
@@ -115,16 +114,17 @@ body {
 .apresentacao {
     display: flex;
     align-items: top; 
-    justify-content:space-between;
+    justify-content:center;
     flex-wrap: wrap; /* quebra linha */
     padding: 40px;
     gap: 20px;
 }
 .texto {
 
-    flex: 1.4;
-    min-width: 500px;
-    margin-left: 15px;
+    flex: 3;
+    min-width: 350px;
+    max-width: 100%;
+    margin-left: 10px;
     text-align: justify; 
 }
 .texto p {
@@ -140,13 +140,16 @@ body {
     font-family: 'Dancing Script', cursive; 
 }
 .imagem {
-    flex: 1;
+    flex: 2;
     display: flex;
+    align-items: flex-start;
     justify-content: center;
+    min-width: 300px;
 }
 #oliver {
-    max-width: 300px;
+    width: 100%;
     height: auto;
+    max-width: 350px;
     border-radius: 10px;
     box-shadow: 10px 10px 0px #D4A5A5;
 }
@@ -218,7 +221,15 @@ th, td {
     border-radius: 10px;
     cursor: pointer;
 }
-
+#mensagemReserva {
+    display: none;
+    margin-top: 10px; 
+    padding: 15px; 
+    border-radius: 10px; 
+    color: #3E2723; 
+    border: 1px solid #3E2723; 
+    text-align: center;
+}
 
 footer {
     background-color: #FCE4EC; 
